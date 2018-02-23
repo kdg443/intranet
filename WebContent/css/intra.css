@@ -1,0 +1,322 @@
+@charset "UTF-8";
+.container
+{
+    position: absolute;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -400px;
+    width: 800px;
+}
+.top-left
+{
+    float: left;
+}
+.top-right
+{
+    float: right;
+    padding-top: 6px;
+}
+.logo-image
+{
+    width: 150px;
+}
+.btn-logout
+{
+    background-color: white;
+    border: 2px solid black;;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+.ul						
+{
+    margin-top: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+.ul .nav-bar
+{
+    float:left;
+    width: 200px;
+    height: 200px;
+}
+.nav						/* 상단 매뉴 */
+{
+    background-color: rgb(97, 152, 255);
+    position: absolute;
+    margin-top: 50px;
+    left: -1px;
+    width: 100%;
+    height: 240px;
+}
+.nav-center
+{
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+}
+.nav-move
+{
+    position: absolute;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+}
+#nav-move-home
+{
+    background-color: rgba(37, 37, 255, 0.30);
+    background-image: url("images/home.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: 50% 50px;
+    transition: all 0.5s;
+}
+#nav-move-home:hover
+{
+    background-color: rgb(37, 37, 255);
+}
+#nav-move-company
+{
+    background-color: rgba(191, 0, 147, 0.30);
+    background-image: url("images/company.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: 50% 50px;
+    transition: all 0.5s;
+}
+#nav-move-company:hover
+{
+    background-color: rgb(191, 0, 147);
+}
+#nav-move-advice
+{
+    background-color: rgba(68, 255, 125, 0.30);
+    background-image: url("images/advice.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: 50% 50px;
+    transition: all 0.5s;
+}
+#nav-move-advice:hover
+{
+    background-color: rgb(68, 255, 125);
+}
+#nav-move-student
+{
+    background-color: rgba(106, 212, 0, 0.3);
+    background-image: url("images/student.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: 50% 50px;
+    transition: all 0.5s;
+}
+#nav-move-student:hover
+{
+    background-color: rgb(106, 212, 0);
+}
+.nav-board
+{
+    background-color: #ffd187;
+    position: absolute;
+    top: 200px;
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.nav-board:hover
+{
+    background-color: #ff9d00;
+}
+.nav-move-board
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.nav-text-board
+{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+ul li .nav-name
+{
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    top: 150px;
+    text-align: center;
+}
+#nav-text-home
+{
+    left: 75px;
+    color: white;
+    font-weight: bold;
+}
+#nav-text-company
+{
+    left: 83px;
+    color: white;
+    font-weight: bold;
+}
+#nav-text-advice
+{
+    left: 85px;
+    color: white;
+    font-weight: bold;
+}
+#nav-text-student
+{
+    left: 80px;
+    color: white;
+    font-weight: bold;
+}
+.nav-side					/* 사이드 매뉴 */	
+{
+    position: fixed;
+    overflow: hidden;
+    right: 5px;
+    bottom: 1px;
+    width: 52px;
+    height: 60px;
+    z-index: 1;
+}
+.nav-side:hover
+{
+    width: 250px;
+}
+.nav-side-var
+{
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 2em;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+}
+.nav-side-line
+{
+    margin-top: 15px;
+}
+.line-decoration
+{
+    margin-top: -2px;
+    border: 2px solid white;
+    border-radius: 2em;
+    width: 30px;
+}
+#nav-side-menu
+{
+    background-color: rgb(0, 108, 201);
+}
+#nav-side-admin
+{
+    background-image: url("images/setting.png");
+    background-color: rgb(255, 137, 0);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+#nav-side-calendar
+{
+	background-image: url("images/calendar.png");
+    background-color: rgb(255, 71, 56);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: 7.4px 7px;
+}
+#nav-side-job
+{
+	background-image: url("images/job.png");
+    background-color: rgb(255, 71, 56);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: 6px 7px;
+}
+.nav-side-admin-move
+{
+    position: absolute;
+    border-radius: 2em;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+}
+.nav-side-calendar-move
+{
+    position: absolute;
+    border-radius: 2em;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+}
+.nav-side-job-move
+{
+    position: absolute;
+    border-radius: 2em;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+}
+.submenu-container				
+{
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	margin-left: -400px;
+	width: 800px;
+	height: 40px;
+}
+.submenu					/* 서브 매뉴 */
+{
+	background-color: rgb(128, 255, 133);
+	border-radius: 5px;
+	border-bottom: 10px solid rgb(0, 255, 10);
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	float: left;
+	width: 200px;
+	height: 40px;
+	transition: all 0.1s;
+}
+.submenu:hover
+{
+	transform: translateY(8px);
+	border-bottom: 2px solid rgb(0, 255, 10);
+}
+.submenu-move
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+#submenu-one
+{
+	margin-left: -350px;
+}
+#submenu-three
+{
+	margin-left: 150px;
+}
+.submenu-text
+{
+	position: absolute;
+	top: 7px;
+	left: 50%;
+	margin-left: -50px;
+	width: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
